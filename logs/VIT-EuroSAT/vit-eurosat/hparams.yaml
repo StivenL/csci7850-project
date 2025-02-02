@@ -1,0 +1,16 @@
+input_shape: !!python/object/apply:torch.Size
+- !!python/tuple
+  - 32
+  - 3
+  - 64
+  - 64
+latent_size: 256
+n_layers: 6
+num_heads: 4
+output_size: 10
+patch_shape: !!python/tuple
+- 16
+- 16
+stride_size: !!python/tuple
+- 8
+- 8
